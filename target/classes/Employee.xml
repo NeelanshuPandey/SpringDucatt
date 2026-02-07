@@ -9,20 +9,29 @@
     <!-- bean definitions here -->
 
 
+<bean name="add" class="BeanClass.Address">
+
+<property name="city" value="Lucknow"></property>
+<property name="state" value="up"></property>
+
+</bean>
+
+
+
 <bean name="emp"  class="BeanClass.Employee">
 <property name="id" value="123"></property>
 <property name="name" value="vikash"></property>
 <property name="gender" value="male"></property>
+<property name="address" ref="add"></property>
 </bean>
 
 
 <!--constructor bean start-->
 
-<bean name="emp1" class="BeanClass.Employee">
+<bean name="emp12" class="BeanClass.Employee">
 <constructor-arg name="id" value="1221"/>
 <constructor-arg name="name" value="Satyam"/>
 <constructor-arg name="gender" value="Male"/>
+<constructor-arg name="address" ref="add"/>
 </bean>
-
-
 </beans>

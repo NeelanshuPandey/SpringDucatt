@@ -6,6 +6,9 @@ public class Employee {
 	private int id;
 	private String name;
 	private String gender;
+	
+	private Address address;
+	
 	public Employee() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -28,24 +31,30 @@ public class Employee {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public Employee(int id, String name, String gender) {
+	
+	
+	
+	
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+	public Employee(int id, String name, String gender, Address address) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.gender = gender;
-		
-		System.out.println("3args constructor");
+		this.address = address;
 	}
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", gender=" + gender + "]";
+		return "Employee [id=" + id + ", name=" + name + ", gender=" + gender + ", address=" + address + "]";
 	}
 	
-	
-	
-	
-	
-	
+		
 	
 	
 }
