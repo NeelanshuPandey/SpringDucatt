@@ -18,12 +18,6 @@
 
 
 
-<bean name="emp"  class="BeanClass.Employee">
-<property name="id" value="123"></property>
-<property name="name" value="vikash"></property>
-<property name="gender" value="male"></property>
-<property name="address" ref="add"></property>
-</bean>
 
 
 <!--constructor bean start-->
