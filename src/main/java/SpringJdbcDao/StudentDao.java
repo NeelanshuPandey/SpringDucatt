@@ -9,4 +9,5 @@ public interface StudentDao {
 	public int delete(Student student);
 	public Student getStudent(int StudentId);
 	public List<Student> getAllStudents();
+	
 }
