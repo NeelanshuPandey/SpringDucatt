@@ -72,10 +72,4 @@ public class StudentDaoImpl implements StudentDao{
 	}
 	
 	
-	
-
-	
-
-	
-	
 }
