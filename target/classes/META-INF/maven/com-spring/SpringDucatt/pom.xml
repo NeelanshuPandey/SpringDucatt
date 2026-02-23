@@ -32,7 +32,12 @@
     <version>7.0.3</version>
     <scope>compile</scope>
 </dependency>
-    
+
+  	<dependency>
+  		<groupId>com.mav1</groupId>
+  		<artifactId>MavJDBC</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
   
   
